@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SharedPreferencesExample</string>
+    <string name="pref_text">preference_text</string>
+    <string name="pref_key">user_prefs</string>
+    <string name="pref_saved">Sua preferência foi salva</string>
+    <string name="errorEmptyField">O campo não pode estar vazio</string>
+    <string name="empty_field_error">Preencha o campo para salvar dados</string>
+    <string name="resultPrefix">Resultado —> </string>
+    <string name="btn_load_prefs_text">Buscar Preferências</string>
+    <string name="result_text"><![CDATA[Resultado --> Vazio]]></string>
+    <string name="btn_save_prefs">Salvar</string>
+    <string name="btn_clean_prefs">Limpar dados</string>
+    <string name="field_hint">Insira dado a ser salvo</string>
+</resources>
