@@ -49,9 +49,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @OnClick(R.id.btnClean) void clearPreferences() {
-        sharedPreferences = getSharedPreferences(getString(R.string.pref_text), Context.MODE_PRIVATE);
+        sharedPreferences = getSharedPreferences(getString(R.string.pref_key), Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
-        editor.clear();
+        editor.remove(getString(R.string.pref_text));
         editor.apply();
         
         hideKeyboard();
